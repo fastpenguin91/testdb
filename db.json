@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "id": "fastpenguin91@gmail.com",
+      "email": "fastpenguin91@gmail.com",
+      "schoolId": "4"
+    },
+    {
+      "id": "john.steven.curry@gmail.com",
+      "email": "john.steven.curry@gmail.com",
+      "schoolId": "52172d0-2f15-404a-b7ab-67e7da67fc75"
+    },
+    {
+      "id": "johnnycurry1232@gmail.com",
+      "email": "johnnycurry1232@gmail.com",
+      "schoolId": "2"
+    }
+  ],
+  "schools": [
+    {
+      "id": "2",
+      "name": "Lafayette College",
+      "address": {
+        "address1": "730 High St",
+        "city": "Easton",
+        "state": "PA",
+        "zip": "18042"
+      },
+      "team": "Kittens",
+      "coaches": [
+        {
+          "id": "johnnycurry1232@gmail.com",
+          "email": "johnnycurry1232@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Vassar College",
+      "address": {
+        "address1": "124 Raymond Ave",
+        "city": "Poughkeepsie",
+        "state": "NY",
+        "zip": "12604"
+      },
+      "team": "Ravens",
+      "coaches": []
+    },
+    {
+      "id": "4",
+      "name": "Bucknell University",
+      "address": {
+        "address1": "One Dent Dr",
+        "city": "Lewisburg",
+        "state": "PA",
+        "zip": "17837"
+      },
+      "team": "Dolphins",
+      "coaches": [
+        {
+          "id": "fastpenguin91@gmail.com",
+          "email": "fastpenguin91@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "University of Rochester",
+      "address": {
+        "address1": "500 Joseph C. Wilson Blvd",
+        "city": "Rochester",
+        "state": "NY",
+        "zip": "14627"
+      },
+      "team": "Bisons",
+      "coaches": []
+    },
+    {
+      "id": "52172d0-2f15-404a-b7ab-67e7da67fc75",
+      "name": "University of Maryland",
+      "address": {
+        "address1": "123 mary ave",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "98453"
+      },
+      "teamName": "Terrapin",
+      "coaches": [
+        {
+          "id": "john.steven.curry@gmail.com",
+          "email": "john.steven.curry@gmail.com"
+        }
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "id": "fastpenguin91@gmail.com",
+      "coachId": "fastpenguin91@gmail.com",
+      "schoolId": "4",
+      "sport": "Soccer",
+      "level": "varsity",
+      "gender": "women",
+      "teamInfo": "Bucknell University Soccer (women varsity)"
+    },
+    {
+      "id": "john.steven.curry@gmail.com",
+      "coachId": "john.steven.curry@gmail.com",
+      "schoolId": "52172d0-2f15-404a-b7ab-67e7da67fc75",
+      "sport": "Soccer",
+      "level": "varsity",
+      "gender": "women",
+      "teamInfo": "University of Maryland Soccer (women varsity)"
+    },
+    {
+      "id": "johnnycurry1232@gmail.com",
+      "coachId": "johnnycurry1232@gmail.com",
+      "schoolId": "2",
+      "sport": "Football",
+      "level": "varsity",
+      "gender": "men",
+      "teamInfo": "Lafayette College Football (men varsity)"
+    }
+  ],
+  "events": [
+    {
+      "id": "e2e53a-44e-4ef-2d0b-d37740ee17c",
+      "title": "Bucknell University VS TBD",
+      "allDay": false,
+      "start": "2020-12-09T02:30:00.000Z",
+      "end": "2020-12-09T04:30:00.000Z",
+      "status": "unconfirmed",
+      "notes": ""
+    },
+    {
+      "id": "13efa74-8ed8-43b-d54e-c1552fd1206",
+      "title": "University of Maryland VS TBD",
+      "allDay": false,
+      "start": "2020-12-11T02:30:00.000Z",
+      "end": "2020-12-11T04:30:00.000Z",
+      "status": "unconfirmed",
+      "notes": ""
+    }
+  ],
+  "invites": [
+    {
+      "id": "53888b2-a61-bb13-4db8-1c0a1064e7d",
+      "eventId": "e2e53a-44e-4ef-2d0b-d37740ee17c",
+      "inviter": "fastpenguin91@gmail.com",
+      "invitee": "john.steven.curry@gmail.com",
+      "status": "pending"
+    },
+    {
+      "id": "ef1bf2f-d264-5c1-4f12-f70f17f105eb",
+      "eventId": "e2e53a-44e-4ef-2d0b-d37740ee17c",
+      "inviter": "fastpenguin91@gmail.com",
+      "invitee": "john.steven.curry@gmail.com",
+      "status": "pending"
+    },
+    {
+      "id": "bc6f10d-82ac-fe03-c2a2-b55bd12262ec",
+      "eventId": "e2e53a-44e-4ef-2d0b-d37740ee17c",
+      "inviter": "fastpenguin91@gmail.com",
+      "invitee": "john.steven.curry@gmail.com",
+      "status": "pending"
+    },
+    {
+      "id": "40a14c0-04e6-ee26-ba6-ec72e8c2daa",
+      "eventId": "13efa74-8ed8-43b-d54e-c1552fd1206",
+      "inviter": "john.steven.curry@gmail.com",
+      "invitee": "fastpenguin91@gmail.com"
+    }
+  ]
+}
